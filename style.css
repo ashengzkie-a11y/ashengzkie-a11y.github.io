@@ -1,0 +1,45 @@
+/* Page background */
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #7fe0b3; /* mint green */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Times New Roman", serif;
+}
+
+/* Center content */
+.container {
+  text-align: center;
+}
+
+/* Title */
+h1 {
+  color: #d35c5c; /* red-pink */
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+  font-weight: strong;
+  
+}
+
+/* Buttons */
+.btn {
+  display: block;
+  width: 220px;
+  margin: 20px auto;
+  padding: 15px 0;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 18px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transform: skew(-5deg);
+}
+
+/* Hover effect */
+.btn:hover {
+  background-color: aqua;
+}
+
